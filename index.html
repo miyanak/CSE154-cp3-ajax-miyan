@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Name: Miya Nakata
+Date: May 4, 2023
+Section: CSE 154 AA (TA Elias Martin)
+
+This is the index.html page for my CP3. It's fairly simple because I was more focused on the JS
+portion of this project.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CP3</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Mystery MET</h1>
+      <h2>Discover works from the Metropolitan Museum of Art!</h2>
+    </header>
+    <section id="art-container">
+      <article id="art-card">
+        <img src="the-met-logo.jpg" alt="The MET logo">
+      </article>
+      <article id="desc-card">
+        <p><strong>How to Use</strong></p>
+        <ol>
+          <li>Click “Search Art” to randomly select a piece within the MET's collection.</li>
+          <li>Click “Reveal Art” to display the selected piece and its accompanying
+            information.
+          </li>
+          <li>Continue clicking between Steps 1 and 2 to discover more artwork!</li>
+        </ol>
+      </article>
+    </section>
+    <section id="btn-box">
+      <button id="search-btn">Search Art</button>
+      <button id="reveal-btn">Reveal Art</button>
+    </section>
+    <footer>
+      <p>This webpage uses <a href="https://metmuseum.github.io/#search">the MET API</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+/*
+Name: Miya Nakata
+Date: May 4, 2023
+Section: CSE 154 AA (TA Elias Martin)
+
+This is the styles.css page for my CP3. This webpage has a beige-y color scheme.
+*/
+
+header {
+  text-align: center;
+}
+
+body, header, footer {
+  background-color: #515151;
+  font-family: 'EB Garamond', serif;
+}
+
+header, footer {
+  color: white;
+}
+
+#art-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#art-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  border: 20px solid #CFA15B;
+  margin-right: 3vw;
+  background-color: white;
+}
+
+#art-card img {
+  width: 45vw;
+  margin: 2vw;
+}
+
+#desc-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30vw;
+  border: 5px solid #CFA15B;
+  background-color: white;
+  padding: 10px;
+}
+
+#desc-card p {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+button {
+  background-color: #515151;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 12px;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: #E5002B;
+  color: white;
+  transition: 0.3s;
+}
+
+#btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
